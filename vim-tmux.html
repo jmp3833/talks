@@ -97,14 +97,104 @@ that seeks to provide the power of the de-facto
 		</section>
 		
 		<section>
-		  <h2>Answer: Plugins</h2>
-		  <p>Plugin support for Vim is awesome! There are countless tools you can use to improve the experience. take a look at http://vimawesome.com/ for some popular examples</p>
+		  <h2>How do plugins work?</h2>
+		  <ul>
+		    <li>plugins and configurations for vim are stored in a .vimrc file</li>
+		    <li>the 'rc' in vimrc stands for "runcom" => "run commands"</li>
+		    <li>specifies commands to be executed before vim starts</li>
+                  </ul>
 		</section>
-
-		<!--Go into actually using Vim-->
-
-		<!--Segway into Tmux-->
-
+                
+		<section>
+                  <img data-src="img/vimrc.png" alt="">
+		</section>
+		
+		<section>
+		  <h3>Need a plugin that doesn't exist yet?</h3>
+		  <ul>
+		    <li>No problem!</li>
+		    <li>Vimscript (a simple scripting language) is packaged with vim</li>
+		    <li>Many other plugins written in all sorts of languages</li>
+                  </ul>
+		</section>
+		
+		<section>
+		  <h3>Keeping plugins in check</h3>
+		  <ul>
+		    <li>Two popular plugin managers, Vundle and Pathogen</li>
+		    <li>Personally use vundle, but many devs are happy with both</li>
+		    <li>There are others out there, pick your favorite!</li>
+                  </ul>
+		</section>
+		
+		<section>
+		  <h2>Using Vim well</h2>
+		  <ul>
+		    <li>Learn touch typing before learning Vim</li>
+		    <li>Don't use the arrow keys!</li> 
+		    <li>Get familiar with other modes besides 'insert'</li>
+		    <li>Use man pages and :vimtutor first to learn basics</li>
+		    <li>Personally reccomend 'Practical Vim' for more advanced maneuvers</li> 
+                  </ul>
+		</section>
+		
+		<section>
+		  <h2>Vim Resources</h2>
+		  <ul>
+		    <li><a href="http://it-ebooks.info/book/1038/">Practical Vim - Free Download</a></li>
+		    <li><a href="http://vim-adventures.com/">Vim Adventures</a>, an online game to learn vim. Costs $$ but many enjoy it</li>
+		    <li><a href="https://github.com/jmp3833/dotfiles">Example config file</a>. NOTE: It's much better to start from a clean slate than to copy!</li>
+		    <li><a href="http://stevelosh.com/blog/2010/09/coming-home-to-vim/">Fantastic blog post on vim philosophy</a></li>
+		    <li><a href="https://www.cmrr.umn.edu/~strupp/vim-3.0.refcard.html">Vim reference card</a>. All of this can be found on the man page</li>
+                  </ul>
+		
+		</section>
+		  <h2>Improving Vim workflow</h2>
+		  <p>Try working on a complex project you would normally use an IDE for completely in Vim. This works better in some languages than others.</p>
+		  <p>Need multiple windows for shells, logs, and your editor? Try <a href="https://tmux.github.io/">Tmux!</a>
+		<section>
+		
+		</section>
+		  <h2>So, What's Tmux?</h2>
+		  <ul>
+		    <li>Stands for "Terminal Multiplexer"</li>
+		    <li>Use to a bunch of programs in a single terminal using windows and panes</li>
+		    <li>Easily 'detach' from a Tmux session to pause your work and continue later</li>
+		    <li>Similar project, <a href="https://www.gnu.org/software/screen/">GNU Screen</a> Provides a subset of Tmux features</li>
+	          </ul>	
+		<section>
+		
+		<section>
+                  <img data-src="img/tmux-use.png" alt="">
+		</section>
+		
+		</section>
+		  <h2>Why the heck would I use this?</h2>
+		  <ul>
+		    <li>I have that new fangled Iterm2, I can already split my windows</li>
+		    <li>I use that cool JetBrains IDE, I can already see my Terminal</li>
+		    <li>I like using Sublime text on one side, and my terminal on the other</li> 
+		    <li><b>These solutions work... but can you easily run them on a server or without a mouse?</b></li>
+	          </ul>	
+		<section>
+                
+		<section>
+                  <img data-src="http://blog.automatize.us/wp-content/uploads/2014/09/frustrated-at-computer.jpg" alt="">
+		  <p>Pictured: Sad Swen250 Student</p>
+		</section>
+		
+		</section>
+		  <h2>Configuring Tmux</h2>
+		  <ul>
+		    <li>Uses a .tmux_conf file, similar to your new friend, the .vimrc</li>
+		    <li>Commands can be remapped for different key combinations, and to display additional info</li>
+	          </ul>	
+		<section>
+		
+		</section>
+		  <h2>Extra Credit: Tmuxinator</h2>
+		<section>
+		
             </div>
         </div>
         <script src="reveal.js"></script>
