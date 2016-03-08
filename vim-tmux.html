@@ -58,7 +58,7 @@ that seeks to provide the power of the de-facto
 		</section>
 		
 		<section>
-		  <h3>So, how do I use this thiing without a mouse?</h3>
+		  <h3>So, how do I use this thing without a mouse?</h3>
 		  <p> Looks like we're back to the days before GUI...</p>
                   <p> As a developer, it's actually more efficient to keep your mitts on the keyboard at all times!</p>
 		</section>
@@ -86,14 +86,14 @@ that seeks to provide the power of the de-facto
 		  <ul>
                     <li>Painfully slow to scroll a cursor around vim without a mouse</li>
 	            <li>Where did my fancy syntax highlighting go?</li>
-		    <li>How am I going to get by without autocomplete?</li>
+		    <li>How am I going to get by without auto complete?</li>
 		    <li>What about my debugger?</li>
 		  </ul>
 		</section>
 		
 		<section>
 		  <h2>Answer: Plugins</h2>
-		  <p>Plugin support for Vim is awesome! There are countless tools you can use to improve the experience. take a look at http://vimawesome.com/ for some popular examples</p>
+		  <p>Plugin support for Vim is awesome! There are countless tools you can use to improve the experience. Take a look at http://vimawesome.com/ for some popular examples</p>
 		</section>
 		
 		<section>
@@ -134,7 +134,7 @@ that seeks to provide the power of the de-facto
 		    <li>Don't use the arrow keys!</li> 
 		    <li>Get familiar with other modes besides 'insert'</li>
 		    <li>Use man pages and :vimtutor first to learn basics</li>
-		    <li>Personally reccomend 'Practical Vim' for more advanced maneuvers</li> 
+		    <li>Personally recommend 'Practical Vim' for more advanced maneuvers</li> 
                   </ul>
 		</section>
 		
@@ -146,15 +146,17 @@ that seeks to provide the power of the de-facto
 		    <li><a href="https://github.com/jmp3833/dotfiles">Example config file</a>. NOTE: It's much better to start from a clean slate than to copy!</li>
 		    <li><a href="http://stevelosh.com/blog/2010/09/coming-home-to-vim/">Fantastic blog post on vim philosophy</a></li>
 		    <li><a href="https://www.cmrr.umn.edu/~strupp/vim-3.0.refcard.html">Vim reference card</a>. All of this can be found on the man page</li>
+		    <li>Plugins NERDTree, YouCompleteMe, and Syntastic</li>
                   </ul>
-		
 		</section>
-		  <h2>Improving Vim workflow</h2>
+		
+		<section>
+		  <h2>Improving a Vim workflow</h2>
 		  <p>Try working on a complex project you would normally use an IDE for completely in Vim. This works better in some languages than others.</p>
 		  <p>Need multiple windows for shells, logs, and your editor? Try <a href="https://tmux.github.io/">Tmux!</a>
-		<section>
-		
 		</section>
+		
+		<section>
 		  <h2>So, What's Tmux?</h2>
 		  <ul>
 		    <li>Stands for "Terminal Multiplexer"</li>
@@ -162,13 +164,13 @@ that seeks to provide the power of the de-facto
 		    <li>Easily 'detach' from a Tmux session to pause your work and continue later</li>
 		    <li>Similar project, <a href="https://www.gnu.org/software/screen/">GNU Screen</a> Provides a subset of Tmux features</li>
 	          </ul>	
-		<section>
+		</section>
 		
 		<section>
                   <img data-src="img/tmux-use.png" alt="">
 		</section>
 		
-		</section>
+		<section>
 		  <h2>Why the heck would I use this?</h2>
 		  <ul>
 		    <li>I have that new fangled Iterm2, I can already split my windows</li>
@@ -176,24 +178,58 @@ that seeks to provide the power of the de-facto
 		    <li>I like using Sublime text on one side, and my terminal on the other</li> 
 		    <li><b>These solutions work... but can you easily run them on a server or without a mouse?</b></li>
 	          </ul>	
-		<section>
+		</section>
                 
 		<section>
                   <img data-src="http://blog.automatize.us/wp-content/uploads/2014/09/frustrated-at-computer.jpg" alt="">
 		  <p>Pictured: Sad Swen250 Student</p>
 		</section>
 		
-		</section>
+		<section>
 		  <h2>Configuring Tmux</h2>
 		  <ul>
 		    <li>Uses a .tmux_conf file, similar to your new friend, the .vimrc</li>
 		    <li>Commands can be remapped for different key combinations, and to display additional info</li>
 	          </ul>	
-		<section>
-		
 		</section>
-		  <h2>Extra Credit: Tmuxinator</h2>
+		
 		<section>
+		  <h2>Tmux Resources</h2>
+		  <ul>
+		    <li><a href="https://gist.github.com/MohamedAlaa/2961058">Tmux Cheat Sheet</a></li>
+		    <li><a href="http://www.sitepoint.com/10-killer-tmux-tips/">Killer Tmux Tips</a></li>
+		    <li><a href="https://teamgaslight.com/blog/vim-plus-tmux-a-perfect-match">Vim + Tmux = A Perfect Match</a></li>
+	          </ul>	
+		</section>
+		
+		<section>
+		  <h2>Extra Credit: Tmuxinator</h2>
+		  <ul>
+		    <li><a href="https://github.com/tmuxinator/tmuxinator">Tmuxinator</a> is a nifty plugin to manage multiple Tmux sessions</li>
+		    <li>The biggest overhead with Tmux is setting up your panes and windows every time you restart, with tmuxinator you don't have to!</li> 
+		    <li>Requires some configuration, but it pays off in the end</li> 
+		  </ul>
+		</section>
+		
+		<section>
+		  <h2>Extra Credit: Powerline</h2>
+		  <ul>
+		    <li><a href="https://github.com/powerline/powerline">Powerline</a> is a neat tool to get additional info in your vim and tmux sessions</li>
+		    <li>Well documented, but takes some time to configure!</li>
+		  </ul>
+		</section>
+		
+		<section>
+		  <h2>Putting it all together</h2>
+		  <ul>
+		    <li>Vim and Tmux aren't just for neckbeards after all!</li>
+		    <li>A little learning goes a long way</li>
+		    <li>Vim and Tmux can supplement a dev workflow or completely replace it</li>
+		  </ul>
+		</section>
+		
+		<section data-background-video="img/questions.mp4" data-background-color="#000000">
+		</section>
 		
             </div>
         </div>
